@@ -1,3 +1,5 @@
+# Edited by Jake H
+
 # cflib: Crazyflie python library [![Build Status](https://api.travis-ci.org/bitcraze/crazyflie-lib-python.svg)](https://travis-ci.org/bitcraze/crazyflie-lib-python)
 
 cflib is an API written in Python that is used to communicate with the Crazyflie
@@ -12,7 +14,7 @@ For more info see our [wiki](http://wiki.bitcraze.se/ "Bitcraze Wiki").
 ### Developing for the cfclient
 * [Fork the cflib](https://help.github.com/articles/fork-a-repo/)
 * [Clone the cflib](https://help.github.com/articles/cloning-a-repository/), `git clone git@github.com:YOUR-USERNAME/crazyflie-lib-python.git`
-* [Install the cflib in editable mode](http://pip-python3.readthedocs.org/en/latest/reference/pip_install.html?highlight=editable#editable-installs), `pip install -e path/to/cflib` 
+* [Install the cflib in editable mode](http://pip-python3.readthedocs.org/en/latest/reference/pip_install.html?highlight=editable#editable-installs), `pip install -e path/to/cflib`
 * [Uninstall the cflib](http://pip-python3.readthedocs.org/en/latest/reference/pip_uninstall.html), `pip uninstall cflib`
 
 Note: If you are developing for the [cfclient][cfclient] you must use python3.
@@ -35,14 +37,14 @@ Note: The first three steps can be skipped if you don't mind installing cflib de
 # Testing
 ### With docker and the toolbelt
 
-For information and installation of the 
+For information and installation of the
 [toolbelt.](https://wiki.bitcraze.io/projects:dockerbuilderimage:index)
-  
+
 * Check to see if you pass tests: `tb test`
 * Check to see if you pass style guidelines: `tb verify`
 
-Note: Docker and the toolbelt is an optional way of running tests and reduces the 
-work needed to maintain your python environmet. 
+Note: Docker and the toolbelt is an optional way of running tests and reduces the
+work needed to maintain your python environmet.
 
 ### Native python on Linux, OSX, Windows
  [Tox](http://tox.readthedocs.org/en/latest/) is used for native testing: `pip install tox`
